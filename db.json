@@ -1,0 +1,82 @@
+{
+    "flights": {
+        "success": true,
+        "state": "query",
+        "substate": "flights",
+        "is_related": false,
+        "data": [
+            {
+                "id": "e9-a7w",
+                "flight": "QP734",
+                "direction": "departure",
+                "date": "2019-11-14",
+                "from_airport_code": "KBP",
+                "from_city_name": "Киев",
+                "to_airport_code": "BCN",
+                "to_city_name": "Барселона"
+            },
+            {
+                "id": "r7-33d",
+                "flight": "QZ434",
+                "direction": "return",
+                "date": "2019-12-17",
+                "from_airport_code": "BCN",
+                "from_city_name": "Барселона",
+                "to_airport_code": "KBP",
+                "to_city_name": "Киев"
+            }
+        ]
+    },
+    "tourists": {
+        "success": true,
+        "state": "query",
+        "substate": "tourists",
+        "data": [
+            {
+                "pax_idx": "0",
+                "tourist": "Dmytro Oliinyk + Infant Oliinyk"
+            },
+            {
+                "pax_idx": "1",
+                "tourist": "Vasia Pupkin"
+            },
+            {
+                "pax_idx": "2",
+                "tourist": "John Wayne"
+            },
+            {
+                "pax_idx": "3",
+                "tourist": "Kim Kardashian"
+            },
+            {
+                "pax_idx": "4",
+                "tourist": "Ozzy Osbourne"
+            }
+        ]
+    },
+    "dates": {
+        "success": true,
+        "state": "query",
+        "substate": "dates",
+        "data": {
+            "flight_dates": ["2019-11-24", "2019-11-27", "2019-11-28", "2019-11-29", "2019-11-30"],
+            "related_dates": []
+        }
+    },
+    "handling": {
+        "success": true,
+        "state": "handling",
+        "data": {
+            "html":"<div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Здравствуйте!<br>Чтобы изменить дату вылета, выберите ниже одно (или несколько) направлений, для которых надо поменять дату.</p><p class=\"chat__message-time\">07:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">08:43 am</p><p class=\"chat__message-text\">Туда (24 июн. вт) KBP - NYC (QP734), Обратно (24 июн. вт) KBP - NYC (QP734)</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Пожалуйста, выберите пассажиров, которым надо изменить дату вылета.</p><p class=\"chat__message-time\">09:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">08:43 am</p><p class=\"chat__message-text\">Dmytro Oliintk + Infant Oliinyk, Vasya Pupkin</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Выберите одну из возможных дат для переноса рейса <b>Киев - Барселона</b></p><p class=\"chat__message-time\">10:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">01:43 am</p><p class=\"chat__message-text\">Рейс <b>Киев - Барселона</b> перенести на 14 Июн. Вт.</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Выберите одну из возможных дат для переноса рейса <b>Барселона - Киев</b></p><p class=\"chat__message-time\">10:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">01:43 am</p><p class=\"chat__message-text\">Рейс <b>Барселона - Киев</b> перенести на 24 Июн. Ср.</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Ваш запрос находится в обработке.<br>Это может занять до 48 часов.<br> После обработки мы пришлем Вам письмо c ответом, также ответ появится в этом чате.<br><br><button type=\"button\" class=\"btn-10 chat__cancel-btn js-chate-cancel-application-btn\">Отменить запрос</button> (После отмены запроса, можете сформировать новый.)</p><p class=\"chat__message-time\">10:44 am</p></div>",
+            "text": "Ваш запрос находится в обработке.<br>Это может занять до 48 часов.<br> После обработки мы пришлем Вам письмо c ответом, также ответ появится в этом чате.<br><br><button type='button' class='btn-10 chat__cancel-btn js-chate-cancel-application-btn'>Отменить запрос</button> (После отмены запроса, можете сформировать новый.)"
+        }
+    },
+    "appeal": {
+        "success": true,
+        "state": "appeal",
+        "data": {
+            "html":"<div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Здравствуйте!<br>Чтобы изменить дату вылета, выберите ниже одно (или несколько) направлений, для которых надо поменять дату.</p><p class=\"chat__message-time\">07:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">08:43 am</p><p class=\"chat__message-text\">Туда (24 июн. вт) KBP - NYC (QP734), Обратно (24 июн. вт) KBP - NYC (QP734)</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Пожалуйста, выберите пассажиров, которым надо изменить дату вылета.</p><p class=\"chat__message-time\">09:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">08:43 am</p><p class=\"chat__message-text\">Dmytro Oliintk + Infant Oliinyk, Vasya Pupkin</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Выберите одну из возможных дат для переноса рейса <b>Киев - Барселона</b></p><p class=\"chat__message-time\">10:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">01:43 am</p><p class=\"chat__message-text\">Рейс <b>Киев - Барселона</b> перенести на 14 Июн. Вт.</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Выберите одну из возможных дат для переноса рейса <b>Барселона - Киев</b></p><p class=\"chat__message-time\">10:44 am</p></div><div class=\"chat__message chat__message--user\"><p class=\"chat__message-time\">01:43 am</p><p class=\"chat__message-text\">Рейс <b>Барселона - Киев</b> перенести на 24 Июн. Ср.</p><div class=\"chat__message-auth\">Вы</div></div><div class=\"chat__message chat__message--skyup\"><div class=\"chat__message-auth\"></div><p class=\"chat__message-text\">Ваш запрос находится в обработке.<br>Это может занять до 48 часов.<br> После обработки мы пришлем Вам письмо c ответом, также ответ появится в этом чате.<br><br><button type=\"button\" class=\"btn-10 chat__cancel-btn js-chate-cancel-application-btn\">Отменить запрос</button> (После отмены запроса, можете сформировать новый.)</p><p class=\"chat__message-time\">10:44 am</p></div>",
+            "text": "Ваш запрос находится в обработке.<br>Это может занять до 48 часов.<br> После обработки мы пришлем Вам письмо c ответом, также ответ появится в этом чате.<br><br><button type='button' class='btn-10 chat__cancel-btn js-chate-cancel-application-btn'>Отменить запрос</button> (После отмены запроса, можете сформировать новый.)"
+        }
+    }
+}
